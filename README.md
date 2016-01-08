@@ -5,10 +5,14 @@ ultra fast iptv-attack
 This program is just a demo. DO NOT USE IT FOR PERSONAL purpose
 
 ## Compile
-```g++ iptv.cpp -o iptv_extreme -lcurl```
+```
+g++ iptv.cpp -o iptv_extreme -lcurl
+```
 
 ## Usage
-```./iptv_extreme```
+```
+./iptv_extreme
+```
 Then just insert the server url, easy ye?
 
 ## Credits
