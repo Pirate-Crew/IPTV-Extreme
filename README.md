@@ -6,7 +6,7 @@ This program is just a demo. DO NOT USE IT FOR PERSONAL purpose
 
 ## Compile
 ```
-g++ iptv.cpp -o iptv_extreme -lcurl
+g++ iptv.cpp -o iptv_extreme -lcurl -lpthread
 ```
 
 ## Usage
