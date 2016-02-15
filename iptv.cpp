@@ -63,7 +63,7 @@ void *attack(void *args) {
     pthread_exit(NULL);
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     string server;
     pthread_t threads[NUM_THREADS];
     struct thread_argument td[NUM_THREADS];
@@ -76,7 +76,12 @@ int main() {
     cout << "-- iptv extreme --" << endl;
     cout << "coded by: @Arm4x" << endl;
     cout << "server url: ";
-    cin >> server;
+    if (argc==1)
+        cin >> server;
+    else{
+        server = argv[1];
+        cout << server;
+    }
     char *serverstr = new char[server.length() + 1];
     strcpy(serverstr, server.c_str());
     cout << endl;
