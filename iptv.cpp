@@ -3,7 +3,7 @@
 // (c) PirateCrew
 
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <curl/curl.h>
 #include <fstream>
 #include <cstdlib>
