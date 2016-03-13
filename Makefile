@@ -2,7 +2,7 @@
 
 build:	iptv.cpp
 	@echo building...
-	g++ -Wall -pedantic -lcurl -lpthread -std=c++11 iptv.cpp -o iptv_extreme
+	g++ iptv.cpp -o iptv_extreme -Wall -pedantic -lcurl -lpthread -std=c++11
 
 clean:
 	@echo cleaning...
