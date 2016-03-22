@@ -1,8 +1,6 @@
 // Code by @Arm4x
 // 
 // (c) PirateCrew
-// Enhanced by @DrSchottky
-
 
 #include <iostream>
 #include <cstring>
