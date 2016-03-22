@@ -21,4 +21,5 @@ Use [IPTV](https://github.com/Pirate-Crew/IPTV) option 1 then paste server addre
 
 ## Credits
 This version was coded by: [@Arm4x](https://twitter.com/Arm4x)<br><br>
+Other contributors: BeTmAsTeR DrSchottky (Small fixes and improvements)
 IPTV/PirateCrew team: [@Arm4x](https://twitter.com/Arm4x) [@Pinperepette](https://twitter.com/Pinperepette) [@Ludo237](https://twitter.com/Ludo237)
